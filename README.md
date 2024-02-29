@@ -2,7 +2,7 @@
 
 ## Methods and goals
 
-The purpose of this microbenchmarking code is to determine whether or not calling rAF many times near a render call impacts performance. The two benchmark functions are `renderWithoutRaf()` and `renderWithRaf`. Both functions render a simple React component, but one calls rAF directly after calling render, whereas the other does not.
+The purpose of this microbenchmarking code is to determine whether or not calling rAF many times on a page (during each component render) impacts performance. The two benchmark functions are `renderWithoutRaf()` and `renderWithRaf`. Both functions render a simple React component, but one calls rAF directly after calling render, whereas the other does not.
 
 ## How to run the microbenchmark
 
